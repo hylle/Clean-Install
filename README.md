@@ -12,8 +12,8 @@ run ``./software.sh``
 ## Setup Vagrant
 ```sh
 cd /
-git clone https://github.com/scotch-io/scotch-box.git dev
-cd dev
+git clone https://github.com/scotch-io/scotch-box.git vagrant
+cd vagrant
 vagrant up
 ```
 
@@ -28,8 +28,19 @@ ssh into the vagrant-box and enable the expires.module
 
 ``sudo apachectl restart``
 
-## Install fish
+## Install fish or zsh
+fish:
 ``brew install fish``
+
+or zsh (using dotfiles):
+
+``npm install -g dotfiles``
+``dotfiles setup``
+
+## Add Vagrant to startup
+Use lingon to setup af start-up task using start.sh
+
+http://sourceforge.net/projects/lingon/files/
 
 ## Alfred Workflows
 https://github.com/zenorocha/alfred-workflows

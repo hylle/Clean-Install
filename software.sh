@@ -14,6 +14,7 @@ brew cask install opera-next
 brew cask install sublime-text-3
 brew cask install iterm2
 brew cask install source-tree
+brew cask install hipchat
 brew cask install virtualbox
 
 # other
