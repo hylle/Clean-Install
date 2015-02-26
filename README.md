@@ -5,7 +5,7 @@ Run the following to get cmd-line-tools:
 ``xcode-select --install``
 
 ## Install Homebrew
-run ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+run ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"``
 ## Install software
 run ``./software.sh``
 
