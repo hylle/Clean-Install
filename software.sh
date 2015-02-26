@@ -12,6 +12,7 @@ brew cask install opera-next
 
 # development
 brew cask install sublime-text-3
+brew cask install atom
 brew cask install iterm2
 brew cask install source-tree
 brew cask install hipchat

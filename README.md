@@ -1,4 +1,4 @@
-# Setup Clean Development Environment on OS X
+# Setup Clean Dev Environment on OS X
 
 ## Install xcode via AppStore
 Run the following to get cmd-line-tools:
