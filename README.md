@@ -35,6 +35,7 @@ fish:
 or zsh (using dotfiles):
 
 ``npm install -g dotfiles``
+
 ``dotfiles setup``
 
 ## Add Vagrant to startup
