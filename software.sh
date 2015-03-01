@@ -8,13 +8,13 @@ brew tap caskroom/versions
 brew cask install firefoxdeveloperedition
 brew cask install google-chrome
 brew cask install google-chrome-canary
-brew cask install opera-next
+brew cask install opera-developer
 
 # development
-brew cask install sublime-text-3
+brew cask install sublime-text3
 brew cask install atom
 brew cask install iterm2
-brew cask install source-tree
+brew cask install sourcetree
 brew cask install hipchat
 brew cask install virtualbox
 
