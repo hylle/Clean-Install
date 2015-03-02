@@ -1,5 +1,8 @@
 #!/bin/sh
 
+brew install node
+npm install -g grunt-cli
+
 # homebrew-cask
 brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
@@ -13,6 +16,8 @@ brew cask install opera-developer
 # development
 brew cask install sublime-text3
 brew cask install atom
+brew cask install transmit
+brew cask install sequel-pro
 brew cask install iterm2
 brew cask install sourcetree
 brew cask install hipchat
