@@ -11,10 +11,20 @@ run ``./software.sh``
 
 ## Setup Vagrant
 ```sh
-cd /
+cd ~/
 git clone https://github.com/scotch-io/scotch-box.git vagrant
+```
+
+Change folder sync method to [nfs](http://docs.vagrantup.com/v2/synced-folders/nfs.html):
+```
+config.vm.synced_folder ".", "/var/www", type: "nfs"
+```
+
+```sh
 cd vagrant
 vagrant up
+vagrant ssh
+sudo apt-get install sendmail mailutils
 ```
 
 Edit ``/etc/hosts`` and add:
