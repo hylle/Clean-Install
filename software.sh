@@ -1,38 +1,36 @@
 #!/bin/sh
 
 brew install node
+brew install yarn
 npm install -g grunt-cli
 
 # homebrew-cask
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
 brew tap caskroom/versions
 
 # browsers
 brew cask install firefoxdeveloperedition
 brew cask install google-chrome
-brew cask install google-chrome-canary
+brew cask install google-chrome-beta
 brew cask install opera-developer
 
 # development
 brew cask install sublime-text3
 brew cask install atom
+brew cask install visual-studio-code
 brew cask install transmit
 brew cask install sequel-pro
 brew cask install iterm2
 brew cask install sourcetree
-brew cask install hipchat
+brew cask install slack
 brew cask install virtualbox
 
 # other
 brew cask install alfred
 brew cask install dropbox
 brew cask install spotify
-brew cask install mattr-slate
 brew cask install 1password
 
-# dev environment
-brew cask install vagrant
-brew cask install vagrant-manager
 
 cat << "EOF"
  _____                                                            __   _  __      _
