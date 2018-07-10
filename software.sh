@@ -18,6 +18,7 @@ brew cask install opera-developer
 brew cask install sublime-text3
 brew cask install atom
 brew cask install visual-studio-code
+brew cask install phpstorm
 brew cask install transmit
 brew cask install sequel-pro
 brew cask install iterm2
