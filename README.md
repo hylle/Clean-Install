@@ -9,35 +9,6 @@ run ``ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/m
 ## Install software
 run ``./software.sh``
 
-## Setup Vagrant
-```sh
-cd ~/
-git clone https://github.com/scotch-io/scotch-box.git vagrant
-```
-
-Change folder sync method to [nfs](http://docs.vagrantup.com/v2/synced-folders/nfs.html):
-```
-config.vm.synced_folder ".", "/var/www", type: "nfs"
-```
-
-```sh
-cd vagrant
-vagrant up
-vagrant ssh
-sudo apt-get install sendmail mailutils
-```
-
-Edit ``/etc/hosts`` and add:
-``192.168.33.10 local.dev``
-
-ssh into the vagrant-box and enable the expires.module
-
-``ssh vagrant@local.dev`` using password "vagrant"
-
-``sudo ln -s /etc/apache2/mods-available/expires.load /etc/apache2/mods-enabled/expires.load``
-
-``sudo apachectl restart``
-
 ## Install fish or zsh
 fish:
 ``brew install fish``
@@ -48,10 +19,6 @@ or zsh (using dotfiles):
 
 ``dotfiles setup``
 
-## Add Vagrant to startup
-Use lingon to setup af start-up task using start.sh
-
-http://sourceforge.net/projects/lingon/files/
 
 ## Alfred Workflows
 https://github.com/zenorocha/alfred-workflows
